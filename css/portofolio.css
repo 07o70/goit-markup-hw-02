@@ -48,3 +48,16 @@
     cursor: pointer;
 }
 
+.all-button {
+    text-align: center;
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: 1.6;
+    letter-spacing: 0.48px;
+    color: #ffffff;
+    width: 64px;
+    height: 38px;
+    flex-shrink: var(--flex-shrink);
+    border-radius: 4px;
+    background: #2196F3;
