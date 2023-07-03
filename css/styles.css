@@ -1,0 +1,8 @@
+:root { 
+        --test-font-family: 'Raleway';
+        --heading-font-family: 'Raleway';
+        --font-family: 'Roboto';
+        --font-style: 'normal';
+        --font-weight: 400;
+        --flex-shrink: 0;
+    }
