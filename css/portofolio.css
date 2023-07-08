@@ -1,29 +1,31 @@
 :root {
     --test-font-family: 'Raleway';
     --heading-font-family: 'Raleway';
-    --font-family: 'Roboto';
+    --font-family:'Roboto';
     --font-style: 'normal';
     --font-weight: 400;
     --flex-shrink: 0;
 }
 
 .body-font {
-    font-family: var(--font-family);
+    font-family: 'Roboto';
     color: #ffffff;
 }
 
 .header-section {
     color: #2196F3;
-    font-size: 26px;
-    font-family: var(--heading-font-family);
-    font-style: var(--font-style);
+    font-size: 26px; 
+    font-family: sans-serif;
+    font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.78px;
+    letter-spacing: 2px;
 }
 
 .header-section > nav > ul > li > a:hover,
-.header-section > nav > ul > li > a:focus {
+.header-section > nav > ul > li > a:focus
+.header-section > nav > ul > li > a:active
+{
     color: #af1e88;
 }
 
@@ -48,6 +50,16 @@
     cursor: pointer;
 }
 
+.main-section > nav {
+    font-size: 16px;
+}
+
+.main-section > nav:active
+
+.main-section > div {
+    font-size: 18px;
+}
+
 .all-button {
     text-align: center;
     font-size: 16px;
@@ -59,7 +71,6 @@
     width: 64px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
-    border-radius: 4px;
     background: #2196F3;
 }
 
