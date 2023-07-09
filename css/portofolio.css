@@ -69,6 +69,14 @@
     font-size: 18px;
 }
 
+.buttons:hover,
+.buttons:focus
+.buttons:active {
+cursor: pointer;
+color: #2196F3;
+flex-shrink: var(--flex-shrink);
+}
+
 .all-button {
     background-color: #F5F4FA;
     text-align: center;
@@ -95,14 +103,21 @@
     font-weight: var(--font-weight);
     line-height: 1.6;
     letter-spacing: 0.48px;
+    text-align: center;
 }
 
 .app-button {
     background-color: #F5F4FA;
     color: #212121;
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.48px;
     width: 83px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
+    text-align: center;
 }
 
 .design-button {
@@ -110,7 +125,13 @@
     color: #212121;
     width: 96px;
     height: 38px;
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.48px;
     flex-shrink: var(--flex-shrink);
+    text-align: center;
 }
 
 .marketing-button {
@@ -118,16 +139,14 @@
     color: #212121;
     width: 121px;
     height: 38px;
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.48px;
     flex-shrink: var(--flex-shrink);
+    text-align: center;
 }
-
-    .buttons:hover,
-    .buttons:focus
-    .buttons:active {
-    cursor: pointer;
-    color: #2196F3;
-    flex-shrink: var(--flex-shrink);
-    }
 
 .name-section {
     color: #212121;
