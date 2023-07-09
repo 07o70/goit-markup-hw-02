@@ -69,11 +69,12 @@
     font-size: 18px;
 }
 
-.buttons:hover,
-.buttons:focus
-.buttons:active {
+button:hover,
+button:focus
+button:active {
 cursor: pointer;
-color: #2196F3;
+background-color: #2196F3;
+color: #FFF;
 flex-shrink: var(--flex-shrink);
 }
 
