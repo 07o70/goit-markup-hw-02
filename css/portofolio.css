@@ -37,6 +37,15 @@
     color: #2196F3;
 }
 
+.contacts:hover,
+.contacts:focus
+.contacts:active {
+    color: #2196F3;
+    width: 135px;
+    height: 16px;
+    flex-shrink: var(--flex-shrink);
+    }
+
 .contacts{
     color: #757575;
     font-size: 14px;
@@ -61,20 +70,21 @@
 }
 
 .all-button {
+    background-color: #F5F4FA;
     text-align: center;
     font-size: 16px;
     font-style: var(--font-style);
     font-weight: var(--font-weight);
     line-height: 1.6;
     letter-spacing: 0.48px;
-    color: #ffffff;
+    color:#212121;
     width: 64px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
-    background: #2196F3;
 }
 
 .web-button {
+    background-color: #F5F4FA;
     width: 120px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
@@ -88,22 +98,36 @@
 }
 
 .app-button {
+    background-color: #F5F4FA;
+    color: #212121;
     width: 83px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
 }
 
 .design-button {
+    background-color: #F5F4FA;
+    color: #212121;
     width: 96px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
 }
 
 .marketing-button {
+    background-color: #F5F4FA;
+    color: #212121;
     width: 121px;
     height: 38px;
     flex-shrink: var(--flex-shrink);
 }
+
+    .buttons:hover,
+    .buttons:focus
+    .buttons:active {
+    cursor: pointer;
+    color: #2196F3;
+    flex-shrink: var(--flex-shrink);
+    }
 
 .name-section {
     color: #212121;
